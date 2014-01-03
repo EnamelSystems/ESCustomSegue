@@ -16,7 +16,7 @@
 
     [UIView transitionWithView:sourceViewController.view
                       duration:0.5
-                       options:UIViewAnimationOptionTransitionFlipFromLeft
+                       options:UIViewAnimationOptionTransitionFlipFromTop
                     animations:^{
                         [sourceViewController.view addSubview:destinationViewController.view];
                     }
