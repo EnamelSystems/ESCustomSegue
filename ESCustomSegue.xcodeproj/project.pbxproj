@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59B24D318769227000BBFEE /* ESSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59B24D218769227000BBFEE /* ESSecondViewController.m */; };
+		F59B24D61876936C000BBFEE /* NextFlipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F59B24D51876936C000BBFEE /* NextFlipSegue.m */; };
+		F59B24D81876B18E000BBFEE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B24D71876B18E000BBFEE /* icon.png */; };
+		F59B24E11876B3B8000BBFEE /* PrevFlipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F59B24E01876B3B8000BBFEE /* PrevFlipSegue.m */; };
 		F5B2321C187689800005602A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B2321B187689800005602A /* Foundation.framework */; };
 		F5B2321E187689800005602A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B2321D187689800005602A /* CoreGraphics.framework */; };
 		F5B23220187689800005602A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B2321F187689800005602A /* UIKit.framework */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F59B24D118769227000BBFEE /* ESSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSecondViewController.h; sourceTree = "<group>"; };
+		F59B24D218769227000BBFEE /* ESSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSecondViewController.m; sourceTree = "<group>"; };
+		F59B24D41876936C000BBFEE /* NextFlipSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextFlipSegue.h; sourceTree = "<group>"; };
+		F59B24D51876936C000BBFEE /* NextFlipSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextFlipSegue.m; sourceTree = "<group>"; };
+		F59B24D71876B18E000BBFEE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = SOURCE_ROOT; };
+		F59B24DF1876B3B8000BBFEE /* PrevFlipSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrevFlipSegue.h; sourceTree = "<group>"; };
+		F59B24E01876B3B8000BBFEE /* PrevFlipSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrevFlipSegue.m; sourceTree = "<group>"; };
 		F5B23218187689800005602A /* ESCustomSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCustomSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B2321B187689800005602A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5B2321D187689800005602A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +131,12 @@
 				F5B23230187689800005602A /* Main_iPad.storyboard */,
 				F5B23233187689800005602A /* ESViewController.h */,
 				F5B23234187689800005602A /* ESViewController.m */,
+				F59B24D118769227000BBFEE /* ESSecondViewController.h */,
+				F59B24D218769227000BBFEE /* ESSecondViewController.m */,
+				F59B24D41876936C000BBFEE /* NextFlipSegue.h */,
+				F59B24D51876936C000BBFEE /* NextFlipSegue.m */,
+				F59B24DF1876B3B8000BBFEE /* PrevFlipSegue.h */,
+				F59B24E01876B3B8000BBFEE /* PrevFlipSegue.m */,
 				F5B23236187689800005602A /* Images.xcassets */,
 				F5B23222187689800005602A /* Supporting Files */,
 			);
@@ -129,6 +146,7 @@
 		F5B23222187689800005602A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F59B24D71876B18E000BBFEE /* icon.png */,
 				F5B23223187689800005602A /* ESCustomSegue-Info.plist */,
 				F5B23224187689800005602A /* InfoPlist.strings */,
 				F5B23227187689800005602A /* main.m */,
@@ -233,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B23232187689800005602A /* Main_iPad.storyboard in Resources */,
+				F59B24D81876B18E000BBFEE /* icon.png in Resources */,
 				F5B23237187689800005602A /* Images.xcassets in Resources */,
 				F5B2322F187689800005602A /* Main_iPhone.storyboard in Resources */,
 				F5B23226187689800005602A /* InfoPlist.strings in Resources */,
@@ -256,7 +275,10 @@
 			files = (
 				F5B23235187689800005602A /* ESViewController.m in Sources */,
 				F5B2322C187689800005602A /* ESAppDelegate.m in Sources */,
+				F59B24D61876936C000BBFEE /* NextFlipSegue.m in Sources */,
+				F59B24D318769227000BBFEE /* ESSecondViewController.m in Sources */,
 				F5B23228187689800005602A /* main.m in Sources */,
+				F59B24E11876B3B8000BBFEE /* PrevFlipSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +413,6 @@
 		F5B2324E187689800005602A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ESCustomSegue/ESCustomSegue-Prefix.pch";
@@ -404,7 +425,6 @@
 		F5B2324F187689800005602A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ESCustomSegue/ESCustomSegue-Prefix.pch";
@@ -475,6 +495,7 @@
 				F5B2324F187689800005602A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5B23250187689800005602A /* Build configuration list for PBXNativeTarget "ESCustomSegueTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +504,7 @@
 				F5B23252187689800005602A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

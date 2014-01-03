@@ -7,6 +7,7 @@
 //
 
 #import "ESViewController.h"
+#import "PrevFlipSegue.h"
 
 @interface ESViewController ()
 
@@ -24,6 +25,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)unwindToTop:(UIStoryboardSegue *)segue
+{
+}
+
+- (UIStoryboardSegue *)segueForUnwindingToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController identifier:(NSString *)identifier
+{
+    return [[PrevFlipSegue alloc] initWithIdentifier:identifier source:fromViewController destination:toViewController];
 }
 
 @end
